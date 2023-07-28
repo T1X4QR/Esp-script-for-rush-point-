@@ -7,10 +7,10 @@ local ESP = {
     Color = Color3.fromRGB(255, 170, 0),
     FaceCamera = false,
     Names = false,
-    TeamColor = false,
+    TeamColor = true,
     Thickness = 2,
     AttachShift = 1,
-    TeamMates = true,
+    TeamMates = false,
     Players = true,
     
     Objects = setmetatable({}, {__mode = "kv"}),
